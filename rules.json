@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "api.abyss-prod.dotabyss.dmmgames.com",
+      "path": "/resources/"
+    },
+    {
+      "domain": "api.abyss-prod.dotabyss.dmmgames.com",
+      "path": "/resources/webgl/normal/app/"
+    },
+    {
+      "domain": "api.abyss-prod.dotabyss.dmmgames.com",
+      "path": "/resources/webgl/normal/aas/"
+    },
+    {
+      "domain": "api.abyss-prod.dotabyss.dmmgames.com",
+      "path": "/resources/web/mp4/"
+    }
+  ]
+}
