@@ -8,6 +8,9 @@ var SPECIAL_DOMAINS = [
   "notification.legend-clover.net",
   "pcg.legend-clover.net",
   "pbs.twimg.com",
+  // twinklestarknightsx game
+  "d3mya90gbacu0m.cloudfront.net",
+  "dz87n5pasv7ep.cloudfront.net",
 ];
 
 function isSpecialDomain(host) {
