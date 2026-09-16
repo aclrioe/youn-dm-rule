@@ -11,6 +11,12 @@ var SPECIAL_DOMAINS = [
   // twinklestarknightsx game
   "d3mya90gbacu0m.cloudfront.net",
   "dz87n5pasv7ep.cloudfront.net",
+  // deepone game
+  "tonofura-w-cdn-client.deepone-online.com",
+  "tonofura-w-cdn-resource.deepone-online.com",
+  "prod-web-w.tc.deepone-online.com",
+  // monmusutd game
+  "assets.game-monmusu-td.net",
 ];
 
 function isSpecialDomain(host) {
