@@ -17,6 +17,8 @@ var SPECIAL_DOMAINS = [
   "prod-web-w.tc.deepone-online.com",
   // monmusutd game
   "assets.game-monmusu-td.net",
+  // imys game
+  "adweimk.cdn.aimia.dmmgames.com",
 ];
 
 function isSpecialDomain(host) {
