@@ -1,31 +1,27 @@
 var DIRECT_DOMAINS = [
-  // monmusutd game
-  "assets.game-monmusu-td.net",
-  // imys game
-  "adweimk.cdn.aimia.dmmgames.com",
-];
-
-var SPECIAL_DOMAINS = [
-  // dotabyss game
-  "api.abyss-prod.dotabyss.dmmgames.com",
   // legeclo game
   "front.legend-clover.net",
   "asset.legend-clover.net",
   "misc.legend-clover.net",
   "notification.legend-clover.net",
-  "pcg.legend-clover.net",
-  "pbs.twimg.com",
-  // twinklestarknightsx game
-  "d3mya90gbacu0m.cloudfront.net",
-  "dz87n5pasv7ep.cloudfront.net",
-  // deepone game
-  "tonofura-w-cdn-client.deepone-online.com",
-  "tonofura-w-cdn-resource.deepone-online.com",
-  "prod-web-w.tc.deepone-online.com",
   // monmusutd game
   "assets.game-monmusu-td.net",
   // imys game
   "adweimk.cdn.aimia.dmmgames.com",
+  // deepone game
+  "tonofura-w-cdn-client.deepone-online.com",
+  "tonofura-w-cdn-resource.deepone-online.com",
+  "prod-web-w.tc.deepone-online.com",
+];
+
+var SPECIAL_DOMAINS = [
+  // dotabyss game
+  "api.abyss-prod.dotabyss.dmmgames.com",
+  // "pcg.legend-clover.net",
+  // "pbs.twimg.com",
+  // twinklestarknightsx game
+  "d3mya90gbacu0m.cloudfront.net",
+  "dz87n5pasv7ep.cloudfront.net",
 ];
 
 function isDirectDomain(host) {
