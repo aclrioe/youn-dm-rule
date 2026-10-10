@@ -1,3 +1,10 @@
+var DIRECT_DOMAINS = [
+  // monmusutd game
+  "assets.game-monmusu-td.net",
+  // imys game
+  "adweimk.cdn.aimia.dmmgames.com",
+];
+
 var SPECIAL_DOMAINS = [
   // dotabyss game
   "api.abyss-prod.dotabyss.dmmgames.com",
@@ -21,6 +28,16 @@ var SPECIAL_DOMAINS = [
   "adweimk.cdn.aimia.dmmgames.com",
 ];
 
+function isDirectDomain(host) {
+  host = host.toLowerCase();
+  for (var i = 0; i < DIRECT_DOMAINS.length; i++) {
+    if (host === DIRECT_DOMAINS[i]) {
+      return true;
+    }
+  }
+  return false;
+}
+
 function isSpecialDomain(host) {
   host = host.toLowerCase();
   for (var i = 0; i < SPECIAL_DOMAINS.length; i++) {
@@ -32,6 +49,10 @@ function isSpecialDomain(host) {
 }
 
 function FindProxyForURL(url, host) {
+  if (isDirectDomain(host)) {
+    return "DIRECT";
+  }
+
   if (isSpecialDomain(host)) {
     return "PROXY 127.0.0.1:6689";
   }
