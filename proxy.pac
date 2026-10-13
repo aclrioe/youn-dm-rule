@@ -12,6 +12,18 @@ var DIRECT_DOMAINS = [
   "tonofura-w-cdn-client.deepone-online.com",
   "tonofura-w-cdn-resource.deepone-online.com",
   "prod-web-w.tc.deepone-online.com",
+  // girlscreation game
+  "cdn.gc.dmmgames.com",
+  // muvluv game
+  "assets.muvluv-girls-garden.com",
+  "api-game.muvluv-girls-garden.com",
+  // rlyehshoujotai game
+  "assets.cthulhu-rog.net",
+  // ayarabu game
+  "game.ayarabu.com",
+  "use.typekit.net",
+  // MistTrainGirls
+  "assets4.mist-train-girls.com",
 ];
 
 var SPECIAL_DOMAINS = [
