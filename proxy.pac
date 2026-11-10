@@ -16,8 +16,8 @@ var DIRECT_DOMAINS = [
   "assets.muvluv-girls-garden.com",
   "api-game.muvluv-girls-garden.com",
   // ayarabu game
-  "game.ayarabu.com",
-  "use.typekit.net",
+  // "game.ayarabu.com",
+  // "use.typekit.net",
   // rlyehshoujotai game
   "assets.cthulhu-rog.net",
   // MistTrainGirls
