@@ -61,9 +61,9 @@ function FindProxyForURL(url, host) {
     return "DIRECT";
   }
 
-  if (isSpecialDomain(host)) {
-    return "PROXY 127.0.0.1:6689";
-  }
+  // if (isSpecialDomain(host)) {
+  //  return "PROXY 127.0.0.1:6689";
+  // }
 
   return "PROXY 127.0.0.1:7897";
 }
